@@ -28,3 +28,16 @@ console.log(booleanIsLoggedIn)
 // let booleanIsLoggedIn = Boolean(isLoggedIn)
 // console.log(booleanIsLoggedIn)
 
+// operation**************
+
+let value = 3
+let negativeValue = -value
+console.log(negativeValue);
+
+console.log(1 + "3");
+console.log("3" + 1);
+console.log("3" +  1 + 2);
+console.log(1 + 2 + "3");
+
+
+
