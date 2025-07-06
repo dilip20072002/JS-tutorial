@@ -1,0 +1,10 @@
+let myName = "Dilip"
+const age = 24
+
+console.log(`My name is ${myName} and my age is ${age}`);
+
+let value = new String("Dilip")
+console.log(value);
+
+// Link of methods and functions in string - https://chatgpt.com/share/686a9a0a-1754-800d-99f7-0b1fe9459c33
+
