@@ -20,7 +20,7 @@ console.log(myUser["My New Location"]);
 console.log(myUser[mySymbol]);
 
 myUser.name = "Gaurav"
-console.log(myUser["name"]);
+// console.log(myUser["name"]);
 
 // Object.freeze(myUser)           // Freez the object so that can't be updated the object values
 myUser.name = "Hitesh"
