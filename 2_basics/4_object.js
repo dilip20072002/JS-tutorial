@@ -46,9 +46,37 @@ const obj = [
 ]
 // console.log(obj[1].email);       // Array of object
 
-console.log(myObj);
-console.log(Object.keys(myObj));
-console.log(Object.values(myObj));
-console.log(Object.entries(myObj));
+// console.log(myObj);
+// console.log(Object.keys(myObj));
+// console.log(Object.values(myObj));
+// console.log(Object.entries(myObj));
 
-console.log(myObj.hasOwnProperty("id"));
+// console.log(myObj.hasOwnProperty("id"));
+
+// ++++++++++++++++++++++++++++++++++++ Object de-structure ++++++++++++++++++++++++++++++++++++
+
+const course = {
+    courseName: "Java Script",
+    courseId: 52,
+    coursePrice: 525
+}
+// course.courseId
+
+const {courseId} = course
+const {courseId: id} = course    // de-structure
+// console.log(courseId);
+console.log(id);
+
+// ++++++++++++++++++++++++++++++++++++ JSON API ++++++++++++++++++++++++++++++++++++
+
+{
+    "name": "Dilip Patel",
+    "course_name": "JS",
+    "course_price": "free"
+}
+//      or
+[
+    {},
+    {},
+    {}
+]
