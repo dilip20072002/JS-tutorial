@@ -11,7 +11,7 @@ const value1 = myNum.filter((num) => num > 4)     // 1st way to call filter with
 
 const value2 = myNum.filter((num) => {           // 2nd way to call filter with use '{}'
 // console.log(value1);
-    return (num > 4)
+    return num > 4
 })
 // console.log(value2);
 
