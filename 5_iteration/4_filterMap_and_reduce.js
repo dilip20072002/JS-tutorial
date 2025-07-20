@@ -15,3 +15,20 @@ const value2 = myNum.filter((num) => {           // 2nd way to call filter with 
 })
 // console.log(value2);
 
+const newNum = []
+myNum.forEach((num) => {
+    if(num > 4)
+    {
+        newNum.push(num)
+    }
+})
+// console.log(newNum);
+
+const book = [
+    {title: "Book 1", price: 100},
+    {title: "Book 2", price: 200},
+    {title: "Book 3", price: 300},
+]
+
+let bookUser = book.filter((bk) => bk.title === "Book 1") // filter with object
+console.log(bookUser);
